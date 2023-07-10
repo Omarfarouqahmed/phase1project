@@ -39,9 +39,9 @@ fetch('phase1.json')
         gymCoach.textContent = 'Coach: ' + gym.coach;
         gymDetails.appendChild(gymCoach);
 
-        const gymOpenTimes = document.createElement('p');
-        gymOpenTimes.textContent = 'Open Times: ' + gym.openTimes;
-        gymDetails.appendChild(gymOpenTimes);
+        const gymOpeningHours = document.createElement('p');
+        gymOpeningHours.textContent = 'Open Times: ' + gym.openingHours;
+        gymDetails.appendChild(gymOpeningHours);
 
         const enrollButton = document.createElement('button');
         enrollButton.textContent = 'Enroll';
