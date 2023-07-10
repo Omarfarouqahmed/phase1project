@@ -1,10 +1,11 @@
+//Fetching my data from my mock API
 fetch('phase1.json')
   .then(response => response.json())
   .then(data => {
     const gyms = data.gyms;
     const parlors = data.parlors;
 
-    // Function to display gyms
+    // making function to display gyms
     function displayGyms(gyms) {
       const gymsContainer = document.getElementById('gymsContainer');
       gymsContainer.innerHTML = '<h2>Gyms</h2>';
@@ -55,7 +56,7 @@ fetch('phase1.json')
       });
     }
 
-    // Function to display parlors
+    // making function to display parlors
     function displayParlors(parlors) {
       const parlorsContainer = document.getElementById('parlorsContainer');
       parlorsContainer.innerHTML = '<h2>Massage Parlors</h2>';
@@ -102,18 +103,20 @@ fetch('phase1.json')
       });
     }
 
-    // Display gyms and parlors on page load
+    // call the functions to display gyms and parlors on page load
     displayGyms(gyms);
     displayParlors(parlors);
 
-    // Event listeners for submit buttons
+    // adding event listeners for submit buttons
     const submitButtons = document.querySelectorAll('.submit-button');
     submitButtons.forEach(button => {
       button.addEventListener('click', () => {
         const reviewTextarea = button.previousElementSibling;
         const review = reviewTextarea.value;
-        console.log('Review:', review);
-        // Add code here to handle the review submission
+        return console.log('Review:', review);
+        e.preventDefault
+        format.reset
+        
       });
     });
   })
