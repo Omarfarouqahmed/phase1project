@@ -1,191 +1,132 @@
 /* Body */
 body {
-    background-color: beige;
-    margin: 0;
-    font-family: Arial, sans-serif;
-  }
-  
-  /* Header */
-  header {
-    background-color: blue;
-    padding: 10px;
-  }
-  
-  .logo img {
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-  }
-  
-  .navbar {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .navbar li {
-    margin-right: 10px;
-  }
-  
-  .navbar a {
-    color: white;
-    text-decoration: none;
-    padding: 10px;
-  }
-  
-  /* Main Content */
-  .container {
-    margin: 20px;
-    padding: 20px;
-    background-color: cream;
-    border-radius: 5px;
-  }
-  
-  .container h2 {
-    margin-bottom: 10px;
-  }
-  
-  .gym,
-  .parlor {
-    width: calc(50% - 10px);
-    margin-bottom: 20px;
-    padding: 10px;
-    background-color: white;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  .gym img,
-  .parlor img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-    margin-bottom: 10px;
-  }
-  
-  .gym h3,
-  .parlor h3 {
-    font-size: 18px;
-    margin-bottom: 5px;
-  }
-  
-  .gym p,
-  .parlor p {
-    margin-bottom: 5px;
-  }
-  
-  .gym button,
-  .parlor button {
-    background-color: olive;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .gym button:hover,
-  .parlor button:hover {
-    background-color: darkgreen;
-  }
-  
-  .comment-section {
-    margin-top: 10px;
-    padding: 10px;
-    background-color: aliceblue;
-    border-radius: 5px;
-  }
-  
-  .comment-section h4 {
-    margin-bottom: 5px;
-  }
-  
-  .comment-section textarea {
-    width: 100%;
-    padding: 5px;
-    margin-bottom: 5px;
-  }
-  
-  .comment-section button {
-    background-color: blue;
-    color: white;
-    border: none;
-    padding: 5px 10px;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .comment-section button:hover {
-    background-color: darkblue;
-  }
-  
-  /* Footer */
-  footer {
-    background-color: blue;
-    padding: 10px;
-    text-align: center;
-    color: white;
-  }
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 20px;
-  }
-  
-  .gym,
-  .parlor {
-    width: calc(50% - 10px);
-    padding: 10px;
-    background-color: #fff;
-    border-radius: 5px;
-    margin-bottom: 20px;
-  }
-  
-  .gym img,
-  .parlor img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-    margin-bottom: 10px;
-  }
-  
-  .gym h3,
-  .parlor h3 {
-    font-size: 18px;
-    margin-bottom: 5px;
-  }
-  
-  .gym p,
-  .parlor p {
-    margin-bottom: 5px;
-  }
-  
-  .comment-section {
-    margin-top: 10px;
-  }
-  
-  .comment-section textarea {
-    width: 100%;
-    height: 60px;
-    resize: vertical;
-    margin-bottom: 10px;
-  }
-  
-  .comment-section button {
-    background-color: #007bff;
-    color: #fff;
-    padding: 5px 10px;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-  }
-  
-  .comment-section button:hover {
-    background-color: #0056b3;
-  }
-  
-  
-  
+  background-color: beige;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+  background-color: blue;
+  padding: 10px;
+}
+
+.logo img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.navbar {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+  margin-right: 10px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+/* Main Content */
+.container {
+  margin: 20px auto;
+  max-width: 960px;
+  padding: 20px;
+  background-color: cream;
+  border-radius: 5px;
+}
+
+.container h2 {
+  margin-bottom: 10px;
+}
+
+.gym,
+.parlor {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.gym img,
+.parlor img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.gym h3,
+.parlor h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.gym p,
+.parlor p {
+  margin-bottom: 5px;
+}
+
+.gym button,
+.parlor button {
+  background-color: olive;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.gym button:hover,
+.parlor button:hover {
+  background-color: darkgreen;
+}
+
+.comment-section {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: aliceblue;
+  border-radius: 5px;
+}
+
+.comment-section h4 {
+  margin-bottom: 5px;
+}
+
+.comment-section textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.comment-section button {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.comment-section button:hover {
+  background-color: darkblue;
+}
+
+/* Footer */
+footer {
+  background-color: blue;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+  Make sure to replace the existing CSS with this updated CSS in your `phase1.css` file.
