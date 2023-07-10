@@ -45,6 +45,7 @@ fetch('phase1.json')
 
         const enrollButton = document.createElement('button');
         enrollButton.textContent = 'Enroll';
+        enrollButton.setAttribute('id', 'enrollButton')
         gymElement.appendChild(enrollButton);
 
         const commentSection = document.createElement('div');
@@ -123,3 +124,21 @@ fetch('phase1.json')
   .catch(error => {
     console.log('Error:', error);
   });
+  
+    const enrollButton = document.getElementById('enrollButton')
+    
+    enrollButton.addEventListener('click', function() {
+      const age = parseInt(prompt('Enter your age:'));
+      
+      if (isNaN(age) || age < 0) {
+        alert('Enter a valid age');
+      } else if (age <= 17) {
+        alert('Sorry, you cannot apply');
+      } else {
+        alert('Congratulations, you are eligible to apply');
+      }
+    });
+  
+  
+      
+ 
