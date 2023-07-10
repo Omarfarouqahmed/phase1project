@@ -2,41 +2,41 @@
   "gyms": [
     {
       "name": "Fitness Zone",
-      "address": "123 Main Street",
-      "coach": "John Doe",
-      "price": "$30/month",
+      "address": "kilmani Road, opp Pitman House",
+      "coach": "John Kimani",
+      "price": "kshs.5000/month",
       "openingHours": "9 AM - 9 PM",
       "image": "gym1.jpeg"
     },
     {
       "name": "Powerhouse Gym",
-      "address": "456 Elm Street",
-      "coach": "Jane Smith",
-      "price": "$40/month",
+      "address": "opp Matter Hospital,Jamii House 4th floor ",
+      "coach": "Jane Kimayu",
+      "price": "kshs.45000/month",
       "openingHours": "8 AM - 10 PM",
       "image": "gym2.png"
     },
     {
       "name": "Flex Fitness",
-      "address": "789 Oak Street",
-      "coach": "Mike Johnson",
-      "price": "$35/month",
+      "address": "Gateway Mall , 3rd Floor, Syo Kimau",
+      "coach": "Mike Okumu",
+      "price": "kshs.4500/month",
       "openingHours": "7 AM - 11 PM",
       "image": "gym3.webp"
     },
     {
       "name": "Fit World",
-      "address": "321 Maple Street",
-      "coach": "Sarah Wilson",
-      "price": "$45/month",
+      "address": "Kasuku Road, off Simba Road, Nyali",
+      "coach": "Alfred Bernard",
+      "price": "kshs.7000/month",
       "openingHours": "6 AM - 10 PM",
       "image": "gym4.jpeg"
     },
     {
       "name": "Iron Gym",
-      "address": "987 Pine Street",
-      "coach": "David Brown",
-      "price": "$50/month",
+      "address": "Beach Road villas, No.775",
+      "coach": "David Njiru",
+      "price": "kshs.4500/month",
       "openingHours": "24 Hours",
       "image": "gym5.jpeg"
     }
@@ -45,36 +45,36 @@
     
     {
       "name": "Blissful Hands",
-      "location": "432 Willow Street",
-      "price": "$55/hour",
+      "location": "Kilmani Road, opp Pitman House",
+      "price": "kshs.1500/hour",
       "openTimes": "11 AM - 7 PM",
       "image": "parlour4.jpeg"
     },
     {
       "name": "Healing Touch",
-      "location": "876 Oak Street",
-      "price": "$65/hour",
+      "location": "Hurlingham, Oak Street",
+      "price": "kshs.500/hour",
       "openTimes": "9 AM - 8 PM",
       "image": "parlour5.webp"
     },
     {
       "name": "Heaven On Earth",
       "location": "Ngong Road, opp Junction Mall",
-      "price": "kshs.750",
+      "price": "kshs.750/hour",
       "openingHours": "10am - 8pm",
       "image": "parlour1.jpeg"
     },
     {
       "name": "Magical Finishers",
       "location": "Langata Road, opp Wilson Airport",
-      "price": "kshs.1500",
+      "price": "kshs.1500/hour",
       "openTimes": "11am - 7pm",
       "image": "parlour2.jpeg"
     },
     {
       "name": "Body Haven",
       "location": "Sungura Road, off Muhoho Avenue",
-      "price": "kshs.1000",
+      "price": "kshs.1000/hour",
       "openTimes": "12pm - 6pm",
       "image": "parlour3.jpeg"
     }

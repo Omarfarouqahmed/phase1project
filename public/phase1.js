@@ -125,7 +125,7 @@ fetch('phase1.json')
     console.log('Error:', error);
   });
   
-    const enrollButton = document.getElementById('enrollButton')
+    const enrollButton = document.getElementById(enrollButton)
     
     enrollButton.addEventListener('click', function() {
       const age = parseInt(prompt('Enter your age:'));
@@ -138,7 +138,7 @@ fetch('phase1.json')
         alert('Congratulations, you are eligible to apply');
       }
     });
-  
+   
   
       
  
